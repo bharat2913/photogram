@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400&display=swap');
 
 :root {
-  --primary: #FECACA;
+  --primary: #FCA5A5;
   --secondary: #A8A29E;
   --error: #DC2626;
 }
@@ -12,6 +12,7 @@
 body {
   font-family: 'Kiwi Maru', serif;
   color: var(--secondary);
+  background: #ebe7e5;
 }
 .App {
   max-width: 960px;
@@ -127,4 +128,51 @@ label:hover{
   box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
   border: 3px solid white;
 
+}
+
+/* links */
+
+
+
+.link {
+
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  /* margin: 1rem 0rem; */
+}
+
+/* lists */
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  /* margin: 0.5rem; */
+  padding: 4rem;
+}
+
+/* footer */
+
+.footer {
+  /* background: white; */
+  padding: 2rem 1rem;
+
+  text-align: center;
+  color: black;
+  border-bottom-right-radius: 1rem;
+}
+
+.footer .link {
+  color: black;
+  padding: 0.5rem 0.95rem;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
 }

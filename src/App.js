@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from './comps/Footer';
 import ImageGrid from './comps/ImageGrid';
 import Model from './comps/Model';
 import Title from './comps/Title';
@@ -16,6 +17,7 @@ function App() {
         <UploadFile />
         <ImageGrid setSelectedImg={setSelectedImg} />
         {selectedImg && <Model selectedImg = {selectedImg} setSelectedImg = {setSelectedImg}/>}
+        <Footer />
       </header>
     </div>
   );
