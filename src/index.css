@@ -159,12 +159,12 @@ label:hover{
   padding: 2rem 1rem;
 
   text-align: center;
-  color: black;
+  color: var(--secondary);
   border-bottom-right-radius: 1rem;
 }
 
 .footer .link {
-  color: black;
+  color: var(--secondary);
   padding: 0.5rem 0.95rem;
 }
 
