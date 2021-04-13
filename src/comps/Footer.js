@@ -15,6 +15,7 @@ const Footer = () => {
                     <a class="link" href="https://www.linkedin.com/in/bharat-sharma-4a98571b1/">LinkedIn</a>
                 </li>
             </ul>
+            <p>© 2021 Bharat Sharma Production</p>
         </footer>    
      );
 }
