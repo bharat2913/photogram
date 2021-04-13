@@ -149,13 +149,15 @@ label:hover{
 .list-item-inline {
   display: inline;
   /* margin: 0.5rem; */
-  padding: 4rem;
+  padding: 1rem;
 }
 
 /* footer */
 
 .footer {
   /* background: white; */
+  max-width: 960px;
+  margin: auto;
   padding: 2rem 1rem;
 
   text-align: center;
